@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: failure to copy the application code into the image. The original Dockerfile attempts to run a Python application but doesn't include the application code itself. The solution includes the missing code and corrects the CMD instruction.
